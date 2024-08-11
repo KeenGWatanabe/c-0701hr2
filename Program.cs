@@ -1,8 +1,16 @@
 ﻿public class Program
 {
-    public static void Main()
+    static float vat = 19f;
+
+    public static void Main() // <- method
     {
-        float var = 19f;
-        Console.WriteLine("Hello, World!");
+        
+
+        Console.WriteLine("Total vat is " + vat);
+    }
+
+    public static void Calculate()
+    {
+        Console.WriteLine("Vat is  " + vat);
     }
 }
